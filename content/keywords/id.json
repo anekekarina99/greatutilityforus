@@ -1,0 +1,103 @@
+{
+  "language": "id",
+  "languageName": "Bahasa Indonesia",
+  "note": "Seed long-tail keyword. Wajib di-review & validasi volume per lokal sebelum dipakai. Keyword bukan terjemahan harfiah.",
+  "formulas": [
+    {
+      "id": "aksi-objek-spesifikasi",
+      "name": "Aksi + Objek + Spesifikasi angka",
+      "keywords": [
+        { "keyword": "resize foto ke 1080x1080", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-1080x1080" },
+        { "keyword": "kompres foto jadi 200kb", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-200kb" },
+        { "keyword": "ubah ukuran gambar ke 413x531", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-413x531" },
+        { "keyword": "kompres gambar di bawah 1mb", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-under-1mb" },
+        { "keyword": "resize foto ukuran 4x6", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-4x6" },
+        { "keyword": "kompres foto jadi 100kb", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-100kb" },
+        { "keyword": "resize gambar ke 600x600", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-600x600" },
+        { "keyword": "ubah ukuran foto 3x4 cm", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-3x4-cm" },
+        { "keyword": "kompres gambar jadi 500kb", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-500kb" },
+        { "keyword": "resize foto ke 1080x1920 story", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-1080x1920" }
+      ]
+    },
+    {
+      "id": "konversi-format",
+      "name": "Konversi format X ke Y",
+      "keywords": [
+        { "keyword": "jpg ke png", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-png" },
+        { "keyword": "png ke jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "png-to-jpg" },
+        { "keyword": "heic ke jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "heic-to-jpg" },
+        { "keyword": "webp ke jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "webp-to-jpg" },
+        { "keyword": "jpg ke pdf", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-pdf" },
+        { "keyword": "png ke webp", "intent": "transactional", "target": "tool", "suggestedSlug": "png-to-webp" },
+        { "keyword": "jpeg ke png", "intent": "transactional", "target": "tool", "suggestedSlug": "jpeg-to-png" },
+        { "keyword": "gif ke png", "intent": "transactional", "target": "tool", "suggestedSlug": "gif-to-png" },
+        { "keyword": "svg ke png", "intent": "transactional", "target": "tool", "suggestedSlug": "svg-to-png" },
+        { "keyword": "bmp ke jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "bmp-to-jpg" }
+      ]
+    },
+    {
+      "id": "use-case-platform",
+      "name": "Use-case / platform (untuk + tujuan)",
+      "keywords": [
+        { "keyword": "resize foto untuk instagram", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-instagram" },
+        { "keyword": "ukuran foto untuk lamaran kerja", "intent": "transactional", "target": "tool", "suggestedSlug": "photo-for-job-application" },
+        { "keyword": "kompres foto untuk pendaftaran cpns", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-for-cpns" },
+        { "keyword": "resize foto untuk linkedin", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-linkedin" },
+        { "keyword": "ukuran foto untuk visa", "intent": "transactional", "target": "tool", "suggestedSlug": "photo-for-visa" },
+        { "keyword": "resize foto untuk profil facebook", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-facebook-profile" },
+        { "keyword": "ukuran foto paspor", "intent": "transactional", "target": "tool", "suggestedSlug": "passport-photo-size" },
+        { "keyword": "resize foto untuk thumbnail youtube", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-youtube-thumbnail" },
+        { "keyword": "ukuran foto untuk twitter header", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-twitter-header" },
+        { "keyword": "resize foto untuk dp whatsapp", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-whatsapp-dp" }
+      ]
+    },
+    {
+      "id": "problem-pain",
+      "name": "Problem / pain driven",
+      "keywords": [
+        { "keyword": "foto terlalu besar untuk upload", "intent": "informational", "target": "article", "suggestedSlug": "photo-too-large-to-upload" },
+        { "keyword": "cara mengecilkan ukuran foto yang kebesaran", "intent": "informational", "target": "article", "suggestedSlug": "reduce-oversized-photo" },
+        { "keyword": "gambar lebih dari 5mb cara upload", "intent": "informational", "target": "article", "suggestedSlug": "image-over-5mb-upload" },
+        { "keyword": "foto buram setelah di resize", "intent": "informational", "target": "article", "suggestedSlug": "photo-blurry-after-resize" },
+        { "keyword": "ukuran file kebesaran untuk formulir", "intent": "informational", "target": "article", "suggestedSlug": "file-too-big-for-form" },
+        { "keyword": "foto tidak bisa diupload ke website", "intent": "informational", "target": "article", "suggestedSlug": "photo-wont-upload" },
+        { "keyword": "cara mengurangi mb foto", "intent": "informational", "target": "article", "suggestedSlug": "reduce-mb-of-photo" },
+        { "keyword": "perkecil foto tanpa mengurangi kualitas", "intent": "informational", "target": "article", "suggestedSlug": "shrink-photo-without-quality-loss" },
+        { "keyword": "foto melebihi ukuran maksimal", "intent": "informational", "target": "article", "suggestedSlug": "photo-exceeds-max-size" },
+        { "keyword": "perkecil foto untuk dikirim email", "intent": "informational", "target": "article", "suggestedSlug": "make-photo-smaller-for-email" }
+      ]
+    },
+    {
+      "id": "modifier-gratis-online",
+      "name": "Modifier gratis / online / tanpa",
+      "keywords": [
+        { "keyword": "kompres gambar online gratis", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-online-free" },
+        { "keyword": "resize foto tanpa aplikasi", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-without-app" },
+        { "keyword": "ubah jpg ke png tanpa watermark", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-png-no-watermark" },
+        { "keyword": "kompres foto di hp tanpa aplikasi", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-phone-no-app" },
+        { "keyword": "resize gambar online gratis tanpa daftar", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-free-no-signup" },
+        { "keyword": "kompres foto online tanpa watermark", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-no-watermark" },
+        { "keyword": "resize foto online tanpa mengurangi kualitas", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-no-quality-loss" },
+        { "keyword": "konverter gambar gratis online", "intent": "transactional", "target": "tool", "suggestedSlug": "free-image-converter-online" },
+        { "keyword": "kompres gambar tanpa mengurangi kualitas online", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-lossless-online" },
+        { "keyword": "resize foto di android tanpa aplikasi", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-android-no-app" }
+      ]
+    },
+    {
+      "id": "pertanyaan-cara",
+      "name": "Pertanyaan / cara (untuk FAQ & artikel)",
+      "keywords": [
+        { "keyword": "cara resize foto tanpa aplikasi", "intent": "informational", "target": "article", "suggestedSlug": "how-to-resize-photo-without-app" },
+        { "keyword": "berapa ukuran foto paspor", "intent": "informational", "target": "faq", "suggestedSlug": "what-is-passport-photo-size" },
+        { "keyword": "cara kompres pdf di hp", "intent": "informational", "target": "article", "suggestedSlug": "how-to-compress-pdf-on-phone" },
+        { "keyword": "apakah kompres foto mengurangi kualitas", "intent": "informational", "target": "faq", "suggestedSlug": "does-compressing-reduce-quality" },
+        { "keyword": "cara mengubah ukuran foto untuk lamaran kerja", "intent": "informational", "target": "article", "suggestedSlug": "how-to-resize-for-job-application" },
+        { "keyword": "ukuran foto instagram berapa", "intent": "informational", "target": "faq", "suggestedSlug": "what-size-for-instagram" },
+        { "keyword": "cara mengubah heic ke jpg", "intent": "informational", "target": "article", "suggestedSlug": "how-to-convert-heic-to-jpg" },
+        { "keyword": "berapa mb maksimal untuk upload", "intent": "informational", "target": "faq", "suggestedSlug": "max-mb-for-upload" },
+        { "keyword": "cara membuat foto ukuran 4x6", "intent": "informational", "target": "article", "suggestedSlug": "how-to-make-photo-4x6" },
+        { "keyword": "cara memperkecil ukuran foto di iphone", "intent": "informational", "target": "article", "suggestedSlug": "how-to-reduce-photo-size-iphone" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "compound-interest-calculator",
+  "category": "finance",
+  "title": "Compound Interest Calculator — Daily, Monthly, Yearly & With Deposits",
+  "description": "Calculate compound interest with daily, monthly, quarterly, or annual compounding. Add deposits, withdrawals, and see your future value over time.",
+  "headline": "Compound interest calculator with deposits and growth table",
+  "subhead": "Free, no signup — calculate future value, total contributions, and interest earned directly in your browser.",
+  "cta": "Calculate compound interest",
+  "mode": "compound-interest",
+  "presets": {
+    "principal": 10000,
+    "rate": 7,
+    "years": 10,
+    "contribution": 100,
+    "contributionFrequency": "monthly",
+    "compoundingFrequency": "monthly",
+    "currency": "USD",
+    "label": "Default example: $10,000 principal, 7% annual return, $100 monthly contribution"
+  },
+  "intro": [
+    "Compound interest grows your money by earning interest on both your original principal and the interest already earned. Over time, even small regular deposits can make a large difference.",
+    "Use this calculator to estimate future value from an initial amount, recurring contributions, annual interest rate, and compounding frequency. The result includes your total principal, total interest, and a year-by-year growth table."
+  ],
+  "tutorial": {
+    "title": "How to calculate compound interest",
+    "steps": [
+      "Enter your starting principal or initial investment amount.",
+      "Add an optional monthly or yearly contribution if you plan to deposit more over time.",
+      "Set the annual interest rate, number of years, and compounding frequency.",
+      "Click calculate to see future value, total contributions, total interest, and yearly growth.",
+      "Adjust the inputs to compare daily, monthly, quarterly, or annual compounding scenarios."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What formula does this compound interest calculator use?",
+      "answer": "For the starting principal, it uses A = P(1 + r/n)^(nt). Regular deposits are added at the end of each contribution period and compounded forward to the end of the term."
+    },
+    {
+      "question": "Can I calculate compound interest with monthly contributions?",
+      "answer": "Yes. Enter a contribution amount and choose monthly contributions. The calculator adds each deposit over the term and shows the combined future value."
+    },
+    {
+      "question": "What is the difference between daily, monthly, and annual compounding?",
+      "answer": "More frequent compounding applies interest more often. Daily compounding usually produces a slightly higher future value than monthly or annual compounding at the same annual rate."
+    },
+    {
+      "question": "Is this result financial advice?",
+      "answer": "No. This is an educational estimate. Actual returns, bank rules, taxes, fees, inflation, and market performance can change the final result."
+    }
+  ],
+  "relatedTools": [
+    "image-dimensions-calculator",
+    "compress-under-5mb"
+  ],
+  "disclaimer": "This calculator is for educational estimates only and does not account for taxes, fees, or investment risk.",
+  "keywords": [
+    "compound interest calculator",
+    "compound interest calculator with monthly contributions",
+    "daily compound interest calculator",
+    "monthly compound interest calculator",
+    "compound interest formula",
+    "compound interest calculator with deposits"
+  ]
+}

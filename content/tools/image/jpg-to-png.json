@@ -1,0 +1,56 @@
+{
+  "slug": "jpg-to-png",
+  "category": "image",
+  "title": "Konversi JPG ke PNG — Gratis Tanpa Watermark",
+  "description": "Ubah file JPG/JPEG ke PNG dengan transparansi atau kualitas lossless. Gratis, instan, diproses di browser.",
+  "headline": "Butuh PNG dari JPG? Konversi sekali klik, tanpa install apa pun",
+  "subhead": "Gratis, tanpa daftar — konversi 100% di perangkat Anda, file tidak diunggah.",
+  "cta": "Konversi ke PNG",
+  "mode": "convert",
+  "presets": {
+    "format": "png",
+    "quality": 1,
+    "label": "Output PNG lossless"
+  },
+  "intro": [
+    "Format PNG cocok untuk logo, grafis dengan teks tajam, atau gambar yang membutuhkan transparansi. Berbeda dengan JPG yang lossy, PNG menyimpan detail tanpa artefak kompresi.",
+    "Alat konversi ini mengubah JPG ke PNG langsung di browser menggunakan Canvas. Tidak ada watermark, tidak ada batas jumlah konversi, dan privasi Anda terjaga."
+  ],
+  "tutorial": {
+    "title": "Cara konversi JPG ke PNG",
+    "steps": [
+      "Unggah file JPG atau JPEG yang ingin dikonversi.",
+      "Format output PNG sudah diatur otomatis.",
+      "Klik \"Konversi ke PNG\" dan tunggu proses selesai.",
+      "Unduh file PNG hasil konversi."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Apakah ukuran file PNG lebih besar dari JPG?",
+      "answer": "Umumnya ya, karena PNG tidak menggunakan kompresi lossy. Ini normal dan diharapkan untuk kualitas lossless."
+    },
+    {
+      "question": "Apakah background JPG jadi transparan?",
+      "answer": "Tidak otomatis. JPG tidak punya channel transparansi. Background putih/berwarna di JPG akan tetap ada di PNG."
+    },
+    {
+      "question": "Bisakah konversi PNG ke JPG juga?",
+      "answer": "Gunakan alat kompres gambar kami — unggah PNG dan hasil output akan dioptimalkan sebagai JPEG."
+    },
+    {
+      "question": "Apakah ada watermark di hasil?",
+      "answer": "Tidak ada watermark. Hasil konversi bersih dan siap dipakai."
+    }
+  ],
+  "relatedTools": [
+    "compress-under-5mb",
+    "resize-for-instagram",
+    "image-dimensions-calculator"
+  ],
+  "keywords": [
+    "jpg to png",
+    "konversi jpeg ke png",
+    "ubah jpg jadi png online"
+  ]
+}

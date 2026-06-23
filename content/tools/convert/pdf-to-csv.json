@@ -1,0 +1,65 @@
+{
+  "slug": "pdf-to-csv",
+  "category": "convert",
+  "title": "PDF to CSV Converter — Free, Online, No Upload",
+  "description": "Extract tables from text-based PDFs into CSV right in your browser. Free, no signup, your file never leaves your device. Best for digital PDFs with real text.",
+  "headline": "PDF to CSV converter for text-based PDF tables",
+  "subhead": "Pull tables out of digital PDFs into CSV — free, no signup, processed entirely in your browser.",
+  "cta": "Convert PDF to CSV",
+  "mode": "pdf-to-csv",
+  "presets": {
+    "delimiter": "comma",
+    "label": "Upload a text-based PDF, preview the detected table, then download CSV. Works best on digital PDFs, not scans."
+  },
+  "intro": [
+    "This tool reads the text layer of a PDF and reconstructs rows and columns into a CSV file you can open in Excel, Google Sheets, or any spreadsheet app.",
+    "Everything runs locally in your browser — your PDF is never uploaded to a server. It works best on digital, text-based PDFs (like exported reports or invoices). Scanned or image-only PDFs have no text layer, so they cannot be converted here without OCR."
+  ],
+  "tutorial": {
+    "title": "How to convert PDF to CSV",
+    "steps": [
+      "Upload a text-based PDF (one exported from a program, not a scan or photo).",
+      "The tool extracts the text and groups it into rows and columns by position.",
+      "Check the table preview to confirm the columns line up correctly.",
+      "Adjust the delimiter if needed (comma, semicolon, or tab).",
+      "Click \"Download CSV\" to save the extracted data to your device."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is my PDF uploaded to a server?",
+      "answer": "No. The PDF is read and parsed entirely inside your browser. Your file never leaves your device, which makes it safe for confidential documents."
+    },
+    {
+      "question": "Why doesn't it work on my scanned PDF?",
+      "answer": "Scanned PDFs are just images with no text layer, so there is nothing to extract. This tool reads real text. Converting a scan would require OCR, which is not included here."
+    },
+    {
+      "question": "The columns are not perfectly aligned. Why?",
+      "answer": "PDF has no concept of a real table — it only stores text at x/y positions. The tool guesses columns from spacing, which works well for clean digital tables but can struggle with complex or merged layouts."
+    },
+    {
+      "question": "Can it handle multi-page PDFs?",
+      "answer": "Yes. All pages are processed and combined into a single CSV. Each page's rows are appended in order."
+    },
+    {
+      "question": "What can I do with the CSV afterwards?",
+      "answer": "Open it in Excel, Google Sheets, or Numbers. You can also feed it into our CSV to PDF tool if you want a clean, reformatted PDF table."
+    }
+  ],
+  "relatedTools": [
+    "csv-to-pdf",
+    "compress-under-5mb",
+    "image-dimensions-calculator"
+  ],
+  "disclaimer": "Works only on text-based (digital) PDFs. Scanned or image-only PDFs cannot be converted without OCR. Conversion runs entirely in your browser — no file is uploaded.",
+  "keywords": [
+    "pdf to csv",
+    "pdf to csv converter",
+    "pdf to csv online free",
+    "pdf to csv converter free",
+    "pdf to csv excel",
+    "pdf to csv extractor",
+    "convert pdf to csv"
+  ]
+}

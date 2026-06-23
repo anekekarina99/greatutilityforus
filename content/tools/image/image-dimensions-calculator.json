@@ -1,0 +1,52 @@
+{
+  "slug": "image-dimensions-calculator",
+  "category": "image",
+  "title": "Cek Ukuran Gambar — Lebar, Tinggi, Rasio Aspek",
+  "description": "Lihat dimensi piksel, rasio aspek, megapiksel, dan ukuran file gambar secara instan. Gratis, tanpa upload ke server.",
+  "headline": "Tahu persis ukuran gambar sebelum upload atau cetak",
+  "subhead": "Gratis, tanpa daftar — analisis langsung di perangkat, file tidak pernah diunggah.",
+  "cta": "Cek dimensi",
+  "mode": "dimensions",
+  "presets": {},
+  "intro": [
+    "Sebelum resize, cetak, atau upload ke platform tertentu, Anda perlu tahu lebar, tinggi, dan rasio aspek gambar. Membuka Photoshop hanya untuk cek dimensi terasa berlebihan.",
+    "Alat kalkulator dimensi ini membaca metadata gambar langsung di browser dan menampilkan lebar, tinggi, rasio aspek, megapiksel, orientasi, dan ukuran file — tanpa mengubah file asli."
+  ],
+  "tutorial": {
+    "title": "Cara cek ukuran dan dimensi gambar",
+    "steps": [
+      "Unggah gambar JPG, PNG, WebP, atau GIF.",
+      "Dimensi ditampilkan otomatis — lebar, tinggi, rasio aspek, dan ukuran file.",
+      "Catat angka yang dibutuhkan untuk resize atau upload.",
+      "Gunakan alat terkait jika perlu mengubah ukuran atau kompres."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Apakah gambar saya diubah?",
+      "answer": "Tidak. Alat ini hanya membaca metadata. File asli tidak dimodifikasi sama sekali."
+    },
+    {
+      "question": "Apa itu rasio aspek?",
+      "answer": "Rasio aspek adalah perbandingan lebar dan tinggi, misalnya 16:9 untuk landscape atau 1:1 untuk persegi."
+    },
+    {
+      "question": "Bisakah cek resolusi DPI?",
+      "answer": "Alat ini menampilkan dimensi piksel. Informasi DPI/ PPI biasanya disimpan di metadata EXIF — fitur ini bisa ditambahkan di update mendatang."
+    },
+    {
+      "question": "Format apa saja yang didukung?",
+      "answer": "JPG, PNG, WebP, dan GIF dengan ukuran maksimal 10 MB."
+    }
+  ],
+  "relatedTools": [
+    "resize-for-instagram",
+    "passport-photo-size",
+    "compress-under-5mb"
+  ],
+  "keywords": [
+    "cek ukuran gambar",
+    "image dimensions checker",
+    "rasio aspek foto"
+  ]
+}

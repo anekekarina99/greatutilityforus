@@ -1,0 +1,61 @@
+{
+  "slug": "dog-name-generator",
+  "category": "generator",
+  "title": "Dog Name Generator — Cute, Unique & Random Dog Names",
+  "description": "Find the perfect dog name. Generate cute, unique, and random dog names by style and gender. Free, instant, runs in your browser — no signup.",
+  "headline": "Dog name generator for cute, unique, and funny dog names",
+  "subhead": "Generate the perfect name for your puppy by gender and style — free, instant, and right in your browser.",
+  "cta": "Generate dog names",
+  "mode": "pet-name",
+  "presets": {
+    "animal": "dog",
+    "count": 12,
+    "label": "Pick a gender and style, then generate fresh dog names. Tap the heart to save your favorites."
+  },
+  "intro": [
+    "Finding the right name for a new puppy takes time. This generator serves up a fresh batch of dog names every time, filtered by gender and the style you're going for — cute, unique, funny, or classic.",
+    "It all runs in your browser, so you can keep generating and saving favorites until a name clicks with your dog's personality."
+  ],
+  "tutorial": {
+    "title": "How to use the dog name generator",
+    "steps": [
+      "Choose a gender filter — male, female, or any.",
+      "Pick a style: cute, unique, funny, or classic.",
+      "Click \"Generate\" to get a new batch of dog names.",
+      "Tap the heart icon to save names you like to your favorites list.",
+      "Keep generating until you find the perfect name for your dog."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How does the dog name generator work?",
+      "answer": "It picks from a curated list of dog names tagged by gender and style, then randomly shuffles a fresh batch each time you click generate. Nothing is sent to a server."
+    },
+    {
+      "question": "Can I get unique or unusual dog names?",
+      "answer": "Yes. Choose the \"unique\" style for less common, distinctive names, or \"cute\" and \"funny\" for playful options."
+    },
+    {
+      "question": "Are there names for male and female dogs?",
+      "answer": "Yes. Use the gender filter to see male, female, or gender-neutral names that suit any dog."
+    },
+    {
+      "question": "Is the dog name generator free?",
+      "answer": "Completely free, with no signup. It runs entirely in your browser, so you can generate as many names as you like."
+    }
+  ],
+  "relatedTools": [
+    "cat-name-generator",
+    "compress-under-5mb",
+    "image-dimensions-calculator"
+  ],
+  "keywords": [
+    "dog name generator",
+    "unique dog name generator",
+    "random dog name generator",
+    "cute dog names",
+    "pet dog name generator",
+    "name generator for dog",
+    "funny dog names"
+  ]
+}

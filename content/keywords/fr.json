@@ -1,0 +1,103 @@
+{
+  "language": "fr",
+  "languageName": "Français",
+  "note": "Graine de mots-cles longue traine. A reviser et valider par volume local avant usage. Localises, pas des traductions litterales.",
+  "formulas": [
+    {
+      "id": "aksi-objek-spesifikasi",
+      "name": "Action + Objet + Specification numerique",
+      "keywords": [
+        { "keyword": "redimensionner photo en 1080x1080", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-1080x1080" },
+        { "keyword": "compresser photo a 200ko", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-200kb" },
+        { "keyword": "redimensionner image en 413x531", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-413x531" },
+        { "keyword": "compresser image a moins de 1mo", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-under-1mb" },
+        { "keyword": "redimensionner photo en 10x15", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-4x6" },
+        { "keyword": "compresser photo a 100ko", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-100kb" },
+        { "keyword": "redimensionner image en 600x600", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-600x600" },
+        { "keyword": "redimensionner photo en 35x45 mm", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-35x45-mm" },
+        { "keyword": "compresser image a 500ko", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-500kb" },
+        { "keyword": "redimensionner photo en 1080x1920 story", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-1080x1920" }
+      ]
+    },
+    {
+      "id": "konversi-format",
+      "name": "Conversion de format X vers Y",
+      "keywords": [
+        { "keyword": "jpg en png", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-png" },
+        { "keyword": "png en jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "png-to-jpg" },
+        { "keyword": "heic en jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "heic-to-jpg" },
+        { "keyword": "webp en jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "webp-to-jpg" },
+        { "keyword": "jpg en pdf", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-pdf" },
+        { "keyword": "png en webp", "intent": "transactional", "target": "tool", "suggestedSlug": "png-to-webp" },
+        { "keyword": "jpeg en png", "intent": "transactional", "target": "tool", "suggestedSlug": "jpeg-to-png" },
+        { "keyword": "gif en png", "intent": "transactional", "target": "tool", "suggestedSlug": "gif-to-png" },
+        { "keyword": "svg en png", "intent": "transactional", "target": "tool", "suggestedSlug": "svg-to-png" },
+        { "keyword": "bmp en jpg", "intent": "transactional", "target": "tool", "suggestedSlug": "bmp-to-jpg" }
+      ]
+    },
+    {
+      "id": "use-case-platform",
+      "name": "Cas d'usage / plateforme (pour + objectif)",
+      "keywords": [
+        { "keyword": "redimensionner photo pour instagram", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-instagram" },
+        { "keyword": "taille photo pour candidature emploi", "intent": "transactional", "target": "tool", "suggestedSlug": "photo-for-job-application" },
+        { "keyword": "compresser photo pour formulaire en ligne", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-for-form" },
+        { "keyword": "redimensionner photo pour linkedin", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-linkedin" },
+        { "keyword": "taille photo pour visa", "intent": "transactional", "target": "tool", "suggestedSlug": "photo-for-visa" },
+        { "keyword": "redimensionner photo pour profil facebook", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-facebook-profile" },
+        { "keyword": "taille photo pour passeport", "intent": "transactional", "target": "tool", "suggestedSlug": "passport-photo-size" },
+        { "keyword": "redimensionner photo pour miniature youtube", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-youtube-thumbnail" },
+        { "keyword": "taille photo pour banniere twitter", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-twitter-header" },
+        { "keyword": "redimensionner photo pour photo de profil whatsapp", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-for-whatsapp-dp" }
+      ]
+    },
+    {
+      "id": "problem-pain",
+      "name": "Probleme / besoin",
+      "keywords": [
+        { "keyword": "photo trop grande pour telecharger", "intent": "informational", "target": "article", "suggestedSlug": "photo-too-large-to-upload" },
+        { "keyword": "comment reduire une photo trop grande", "intent": "informational", "target": "article", "suggestedSlug": "reduce-oversized-photo" },
+        { "keyword": "image de plus de 5mo comment televerser", "intent": "informational", "target": "article", "suggestedSlug": "image-over-5mb-upload" },
+        { "keyword": "photo floue apres redimensionnement", "intent": "informational", "target": "article", "suggestedSlug": "photo-blurry-after-resize" },
+        { "keyword": "taille de fichier trop grande pour formulaire", "intent": "informational", "target": "article", "suggestedSlug": "file-too-big-for-form" },
+        { "keyword": "la photo ne se televerse pas sur le site", "intent": "informational", "target": "article", "suggestedSlug": "photo-wont-upload" },
+        { "keyword": "comment reduire les mo d'une photo", "intent": "informational", "target": "article", "suggestedSlug": "reduce-mb-of-photo" },
+        { "keyword": "reduire photo sans perdre en qualite", "intent": "informational", "target": "article", "suggestedSlug": "shrink-photo-without-quality-loss" },
+        { "keyword": "la photo depasse la taille maximale", "intent": "informational", "target": "article", "suggestedSlug": "photo-exceeds-max-size" },
+        { "keyword": "reduire photo pour envoyer par email", "intent": "informational", "target": "article", "suggestedSlug": "make-photo-smaller-for-email" }
+      ]
+    },
+    {
+      "id": "modifier-gratis-online",
+      "name": "Modificateur gratuit / en ligne / sans",
+      "keywords": [
+        { "keyword": "compresser image en ligne gratuit", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-online-free" },
+        { "keyword": "redimensionner photo sans logiciel", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-without-app" },
+        { "keyword": "convertir jpg en png sans filigrane", "intent": "transactional", "target": "tool", "suggestedSlug": "jpg-to-png-no-watermark" },
+        { "keyword": "compresser photo sur telephone sans application", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-phone-no-app" },
+        { "keyword": "redimensionner image gratuit sans inscription", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-image-free-no-signup" },
+        { "keyword": "compresser photo en ligne sans filigrane", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-photo-no-watermark" },
+        { "keyword": "redimensionner photo en ligne sans perte de qualite", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-no-quality-loss" },
+        { "keyword": "convertisseur d'images gratuit en ligne", "intent": "transactional", "target": "tool", "suggestedSlug": "free-image-converter-online" },
+        { "keyword": "compresser image sans perte de qualite en ligne", "intent": "transactional", "target": "tool", "suggestedSlug": "compress-image-lossless-online" },
+        { "keyword": "redimensionner photo sur android sans application", "intent": "transactional", "target": "tool", "suggestedSlug": "resize-photo-android-no-app" }
+      ]
+    },
+    {
+      "id": "pertanyaan-cara",
+      "name": "Question / comment (pour FAQ et articles)",
+      "keywords": [
+        { "keyword": "comment redimensionner une photo sans application", "intent": "informational", "target": "article", "suggestedSlug": "how-to-resize-photo-without-app" },
+        { "keyword": "quelle est la taille d'une photo de passeport", "intent": "informational", "target": "faq", "suggestedSlug": "what-is-passport-photo-size" },
+        { "keyword": "comment compresser un pdf sur telephone", "intent": "informational", "target": "article", "suggestedSlug": "how-to-compress-pdf-on-phone" },
+        { "keyword": "compresser une photo reduit-il la qualite", "intent": "informational", "target": "faq", "suggestedSlug": "does-compressing-reduce-quality" },
+        { "keyword": "comment changer la taille d'une photo pour candidature", "intent": "informational", "target": "article", "suggestedSlug": "how-to-resize-for-job-application" },
+        { "keyword": "quelle taille pour une photo instagram", "intent": "informational", "target": "faq", "suggestedSlug": "what-size-for-instagram" },
+        { "keyword": "comment convertir heic en jpg", "intent": "informational", "target": "article", "suggestedSlug": "how-to-convert-heic-to-jpg" },
+        { "keyword": "combien de mo maximum pour televerser", "intent": "informational", "target": "faq", "suggestedSlug": "max-mb-for-upload" },
+        { "keyword": "comment faire une photo 10x15", "intent": "informational", "target": "article", "suggestedSlug": "how-to-make-photo-4x6" },
+        { "keyword": "comment reduire la taille d'une image sur iphone", "intent": "informational", "target": "article", "suggestedSlug": "how-to-reduce-photo-size-iphone" }
+      ]
+    }
+  ]
+}

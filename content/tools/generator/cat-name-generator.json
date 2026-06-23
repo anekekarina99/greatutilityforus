@@ -1,0 +1,61 @@
+{
+  "slug": "cat-name-generator",
+  "category": "generator",
+  "title": "Cat Name Generator — Cute, Unique & Random Cat Names",
+  "description": "Find the perfect cat name. Generate cute, unique, and random cat names by style and gender. Free, instant, runs in your browser — no signup.",
+  "headline": "Cat name generator for cute, unique, and funny cat names",
+  "subhead": "Generate the perfect name for your kitten by gender and style — free, instant, and right in your browser.",
+  "cta": "Generate cat names",
+  "mode": "pet-name",
+  "presets": {
+    "animal": "cat",
+    "count": 12,
+    "label": "Pick a gender and style, then generate fresh cat names. Tap the heart to save your favorites."
+  },
+  "intro": [
+    "Naming a new cat is harder than it looks. This generator gives you a fresh batch of cat names every time, filtered by gender and the vibe you want — cute, unique, funny, or classic.",
+    "Everything runs in your browser, so you can keep generating and saving favorites until you find the one that fits your kitten's personality."
+  ],
+  "tutorial": {
+    "title": "How to use the cat name generator",
+    "steps": [
+      "Choose a gender filter — male, female, or any.",
+      "Pick a style: cute, unique, funny, or classic.",
+      "Click \"Generate\" to get a new batch of cat names.",
+      "Tap the heart icon to save names you like to your favorites list.",
+      "Keep generating until you find the perfect name for your cat."
+    ]
+  },
+  "faq": [
+    {
+      "question": "How does the cat name generator work?",
+      "answer": "It picks from a curated list of cat names tagged by gender and style, then randomly shuffles a fresh batch each time you click generate. Nothing is sent to a server."
+    },
+    {
+      "question": "Can I get unique or unusual cat names?",
+      "answer": "Yes. Choose the \"unique\" style for less common, distinctive names, or \"cute\" and \"funny\" for playful options."
+    },
+    {
+      "question": "Are there names for male and female cats?",
+      "answer": "Yes. Use the gender filter to see male, female, or gender-neutral names that suit any cat."
+    },
+    {
+      "question": "Is the cat name generator free?",
+      "answer": "Completely free, with no signup. It runs entirely in your browser, so you can generate as many names as you like."
+    }
+  ],
+  "relatedTools": [
+    "dog-name-generator",
+    "compress-under-5mb",
+    "image-dimensions-calculator"
+  ],
+  "keywords": [
+    "cat name generator",
+    "unique cat name generator",
+    "random cat name generator",
+    "cute cat names",
+    "pet cat name generator",
+    "name generator for a cat",
+    "funny cat names"
+  ]
+}

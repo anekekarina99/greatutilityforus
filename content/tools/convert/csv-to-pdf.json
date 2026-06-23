@@ -1,0 +1,69 @@
+{
+  "slug": "csv-to-pdf",
+  "category": "convert",
+  "title": "CSV to PDF Converter — Free, Online, No Upload",
+  "description": "Convert CSV to a clean PDF table directly in your browser. Free, no signup, files never leave your device. Keep formatting and set page layout.",
+  "headline": "CSV to PDF converter that keeps your data private",
+  "subhead": "Turn any CSV file into a clean, printable PDF table — free, no signup, processed entirely in your browser.",
+  "cta": "Convert CSV to PDF",
+  "mode": "csv-to-pdf",
+  "presets": {
+    "delimiter": "auto",
+    "orientation": "portrait",
+    "pageSize": "a4",
+    "hasHeader": true,
+    "sample": "Product,Category,Price,Stock\nKeyboard,Accessories,29.90,120\nMonitor,Displays,189.00,34\nMouse,Accessories,14.50,260\nWebcam,Video,49.99,75",
+    "label": "Upload a .csv file or paste your data, preview the table, then download a formatted PDF."
+  },
+  "intro": [
+    "A CSV file is just plain text separated by commas, so it is great for data but hard to read or print. This tool turns that raw data into a clean, formatted PDF table you can share, print, or attach.",
+    "Everything runs locally in your browser. Your file is never uploaded to a server, which makes it safe for spreadsheets that contain private or business data."
+  ],
+  "tutorial": {
+    "title": "How to convert CSV to PDF",
+    "steps": [
+      "Upload your .csv file or paste the CSV text directly into the box.",
+      "Choose the delimiter (auto-detect works for most files), page size, and orientation.",
+      "Check the live table preview to confirm columns and rows look correct.",
+      "Click \"Download PDF\" to save a formatted PDF table to your device.",
+      "Use landscape orientation or Legal page size for tables with many columns."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is my CSV file uploaded to a server?",
+      "answer": "No. The entire conversion happens inside your browser using JavaScript. Your data never leaves your device, so it is safe for confidential or business spreadsheets."
+    },
+    {
+      "question": "Does it keep my table formatting?",
+      "answer": "Yes. The tool renders your rows and columns as a real PDF table with a header row, borders, and automatic page breaks. You can switch between portrait and landscape and pick A4, Letter, or Legal."
+    },
+    {
+      "question": "My file uses semicolons instead of commas. Will it work?",
+      "answer": "Yes. Auto-detect handles comma, semicolon, and tab separated files. You can also force a specific delimiter if auto-detect guesses wrong."
+    },
+    {
+      "question": "Is there a row limit?",
+      "answer": "There is no hard limit, but very large files (tens of thousands of rows) may take longer because everything is processed on your device. For huge datasets, split the file first."
+    },
+    {
+      "question": "Can it convert PDF back to CSV?",
+      "answer": "Not yet. Extracting tables from PDF is much harder and less reliable, especially for scanned documents. This tool focuses on accurate CSV to PDF conversion."
+    }
+  ],
+  "relatedTools": [
+    "compress-under-5mb",
+    "image-dimensions-calculator",
+    "compound-interest-calculator"
+  ],
+  "disclaimer": "Conversion runs entirely in your browser. No file is uploaded — your data stays on your device.",
+  "keywords": [
+    "csv to pdf",
+    "csv to pdf converter",
+    "csv to pdf online free",
+    "csv to pdf converter free",
+    "csv to pdf with formatting",
+    "csv to pdf without losing formatting",
+    "convert csv to pdf"
+  ]
+}

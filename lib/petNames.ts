@@ -1,0 +1,98 @@
+export type PetGender = "male" | "female" | "unisex";
+export type PetStyle = "cute" | "unique" | "funny" | "classic";
+
+export interface PetName {
+  name: string;
+  gender: PetGender;
+  styles: PetStyle[];
+}
+
+export const CAT_NAMES: PetName[] = [
+  { name: "Luna", gender: "female", styles: ["cute", "classic"] },
+  { name: "Milo", gender: "male", styles: ["cute", "classic"] },
+  { name: "Bella", gender: "female", styles: ["cute", "classic"] },
+  { name: "Simba", gender: "male", styles: ["classic", "cute"] },
+  { name: "Cleo", gender: "female", styles: ["unique", "classic"] },
+  { name: "Oliver", gender: "male", styles: ["classic"] },
+  { name: "Mochi", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Pixel", gender: "unisex", styles: ["unique", "funny"] },
+  { name: "Salem", gender: "male", styles: ["unique", "classic"] },
+  { name: "Nala", gender: "female", styles: ["cute", "classic"] },
+  { name: "Sir Whiskers", gender: "male", styles: ["funny"] },
+  { name: "Biscuit", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Zelda", gender: "female", styles: ["unique"] },
+  { name: "Tofu", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Onyx", gender: "male", styles: ["unique"] },
+  { name: "Pumpkin", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Ziggy", gender: "unisex", styles: ["funny", "unique"] },
+  { name: "Hazel", gender: "female", styles: ["cute", "classic"] },
+  { name: "Mittens", gender: "unisex", styles: ["cute", "classic"] },
+  { name: "Loki", gender: "male", styles: ["unique", "classic"] },
+  { name: "Pepper", gender: "unisex", styles: ["cute", "classic"] },
+  { name: "Marbles", gender: "unisex", styles: ["funny"] },
+  { name: "Aurora", gender: "female", styles: ["unique", "classic"] },
+  { name: "Noodle", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Felix", gender: "male", styles: ["classic"] },
+  { name: "Willow", gender: "female", styles: ["cute", "unique"] },
+  { name: "Tigger", gender: "male", styles: ["classic", "funny"] },
+  { name: "Cinnamon", gender: "female", styles: ["cute"] },
+  { name: "Bagheera", gender: "male", styles: ["unique"] },
+  { name: "Smudge", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Esme", gender: "female", styles: ["unique"] },
+  { name: "Waffles", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Jasper", gender: "male", styles: ["classic", "unique"] },
+  { name: "Clementine", gender: "female", styles: ["unique", "classic"] },
+  { name: "Boots", gender: "unisex", styles: ["classic", "funny"] },
+  { name: "Nova", gender: "female", styles: ["unique"] },
+  { name: "Gizmo", gender: "male", styles: ["funny", "cute"] },
+  { name: "Olive", gender: "female", styles: ["cute", "classic"] },
+  { name: "Shadow", gender: "unisex", styles: ["classic", "unique"] },
+  { name: "Tater Tot", gender: "unisex", styles: ["funny"] },
+];
+
+export const DOG_NAMES: PetName[] = [
+  { name: "Buddy", gender: "male", styles: ["classic", "cute"] },
+  { name: "Daisy", gender: "female", styles: ["cute", "classic"] },
+  { name: "Max", gender: "male", styles: ["classic"] },
+  { name: "Bella", gender: "female", styles: ["cute", "classic"] },
+  { name: "Cooper", gender: "male", styles: ["classic"] },
+  { name: "Luna", gender: "female", styles: ["cute", "classic"] },
+  { name: "Rocky", gender: "male", styles: ["classic"] },
+  { name: "Maple", gender: "female", styles: ["cute", "unique"] },
+  { name: "Biscuit", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Zeus", gender: "male", styles: ["classic", "unique"] },
+  { name: "Nugget", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Pepper", gender: "unisex", styles: ["cute", "classic"] },
+  { name: "Bear", gender: "male", styles: ["cute", "classic"] },
+  { name: "Waffles", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Willow", gender: "female", styles: ["cute", "unique"] },
+  { name: "Sir Barksalot", gender: "male", styles: ["funny"] },
+  { name: "Mochi", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Hazel", gender: "female", styles: ["cute", "classic"] },
+  { name: "Diesel", gender: "male", styles: ["unique"] },
+  { name: "Peanut", gender: "unisex", styles: ["cute", "funny"] },
+  { name: "Athena", gender: "female", styles: ["unique", "classic"] },
+  { name: "Marley", gender: "unisex", styles: ["classic"] },
+  { name: "Pickles", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Apollo", gender: "male", styles: ["unique", "classic"] },
+  { name: "Ginger", gender: "female", styles: ["cute", "classic"] },
+  { name: "Tank", gender: "male", styles: ["funny", "unique"] },
+  { name: "Olive", gender: "female", styles: ["cute", "classic"] },
+  { name: "Rufus", gender: "male", styles: ["classic", "funny"] },
+  { name: "Coco", gender: "female", styles: ["cute", "classic"] },
+  { name: "Biggie", gender: "male", styles: ["funny"] },
+  { name: "Juno", gender: "female", styles: ["unique"] },
+  { name: "Meatball", gender: "unisex", styles: ["funny"] },
+  { name: "Scout", gender: "unisex", styles: ["classic", "unique"] },
+  { name: "Penny", gender: "female", styles: ["cute", "classic"] },
+  { name: "Bandit", gender: "male", styles: ["classic", "unique"] },
+  { name: "Dumpling", gender: "unisex", styles: ["funny", "cute"] },
+  { name: "Freya", gender: "female", styles: ["unique"] },
+  { name: "Gizmo", gender: "male", styles: ["funny", "cute"] },
+  { name: "Maverick", gender: "male", styles: ["unique", "classic"] },
+  { name: "Noodle", gender: "unisex", styles: ["funny", "cute"] },
+];
+
+export function getPetNames(animal: "cat" | "dog"): PetName[] {
+  return animal === "cat" ? CAT_NAMES : DOG_NAMES;
+}

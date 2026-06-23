@@ -1,0 +1,59 @@
+{
+  "slug": "passport-photo-size",
+  "category": "image",
+  "title": "Ukuran Foto Paspor Online — 3.5×4.5 cm (413×531 px)",
+  "description": "Buat foto paspor ukuran standar 3.5×4.5 cm (413×531 px). Gratis, langsung di browser, tanpa perlu ke studio foto.",
+  "headline": "Foto paspor ukuran resmi, siap cetak dari rumah",
+  "subhead": "Gratis, tanpa daftar — privasi terjaga karena file diproses di perangkat Anda.",
+  "cta": "Atur ukuran paspor",
+  "mode": "resize",
+  "presets": {
+    "width": 413,
+    "height": 531,
+    "format": "jpeg",
+    "quality": 0.95,
+    "label": "Standar foto paspor Indonesia 3.5×4.5 cm @ 300 DPI"
+  },
+  "intro": [
+    "Foto paspor Indonesia mengikuti standar ukuran 3.5 × 4.5 cm dengan resolusi minimal 300 DPI, setara dengan 413 × 531 piksel. Ukuran yang salah sering menjadi alasan penolakan saat pengajuan paspor atau visa.",
+    "Dengan alat ini, Anda bisa menyesuaikan foto selfie atau foto studio ke ukuran resmi tanpa software editing. Proses sepenuhnya di browser — foto tidak dikirim ke server."
+  ],
+  "tutorial": {
+    "title": "Cara membuat foto paspor ukuran standar",
+    "steps": [
+      "Siapkan foto wajah dengan latar belakang polos (merah/biru/putih).",
+      "Unggah foto ke alat ini — pastikan ukuran 413×531 px sudah terisi.",
+      "Klik \"Atur ukuran paspor\" untuk memproses.",
+      "Unduh dan cetak di kertas foto 4R, atau bawa file digital ke loket imigrasi."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Apakah ukuran 413×531 px sudah sesuai standar?",
+      "answer": "Ya, ini setara dengan 3.5×4.5 cm pada 300 DPI — standar yang umum digunakan untuk paspor dan visa Indonesia."
+    },
+    {
+      "question": "Apakah alat ini mengganti latar belakang?",
+      "answer": "Tidak. Alat ini hanya mengubah ukuran. Pastikan latar belakang sudah sesuai ketentuan sebelum unggah."
+    },
+    {
+      "question": "Bisakah digunakan untuk visa Schengen?",
+      "answer": "Ukuran foto visa Schengen berbeda (35×45 mm, sama dengan paspor). Namun resolusi 413×531 px cocok sebagai starting point."
+    },
+    {
+      "question": "File saya aman?",
+      "answer": "Ya. Pemrosesan 100% di browser Anda. Kami tidak menyimpan, mengunggah, atau mengakses foto Anda."
+    }
+  ],
+  "relatedTools": [
+    "resize-for-instagram",
+    "compress-under-5mb",
+    "image-dimensions-calculator"
+  ],
+  "disclaimer": "Alat ini membantu menyesuaikan ukuran piksel. Persyaratan foto resmi (ekspresi, latar, pakaian) tetap mengacu pada regulasi instansi terkait.",
+  "keywords": [
+    "ukuran foto paspor",
+    "foto paspor online",
+    "413x531 pixel paspor"
+  ]
+}

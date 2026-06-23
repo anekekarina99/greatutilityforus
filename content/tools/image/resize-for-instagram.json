@@ -1,0 +1,58 @@
+{
+  "slug": "resize-for-instagram",
+  "category": "image",
+  "title": "Resize Foto untuk Instagram — 1080×1080 Gratis",
+  "description": "Ubah ukuran foto ke 1080×1080 px untuk feed Instagram. Gratis, tanpa watermark, diproses di browser Anda.",
+  "headline": "Foto feed Instagram siap upload dalam hitungan detik",
+  "subhead": "Gratis, tanpa daftar — file Anda tidak pernah meninggalkan perangkat.",
+  "cta": "Resize sekarang",
+  "mode": "resize",
+  "presets": {
+    "width": 1080,
+    "height": 1080,
+    "format": "jpeg",
+    "quality": 0.92,
+    "label": "Ukuran standar feed Instagram (1080×1080)"
+  },
+  "intro": [
+    "Instagram menampilkan foto feed terbaik pada resolusi 1080×1080 piksel. Jika foto Anda lebih besar atau berbentuk persegi panjang, platform akan memotong atau mengecilkan otomatis — sering kali dengan hasil yang kurang ideal.",
+    "Alat ini mengubah ukuran foto Anda ke 1080×1080 px langsung di browser. Tidak perlu install aplikasi, tidak perlu akun, dan foto Anda tidak diunggah ke server manapun."
+  ],
+  "tutorial": {
+    "title": "Cara resize foto untuk Instagram",
+    "steps": [
+      "Klik area unggah atau seret foto JPG/PNG ke kotak.",
+      "Pastikan lebar dan tinggi sudah 1080 px (default sudah diatur).",
+      "Klik \"Resize sekarang\" dan tunggu proses selesai.",
+      "Unduh hasilnya dan upload langsung ke Instagram."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Apakah foto saya diunggah ke server?",
+      "answer": "Tidak. Semua pemrosesan terjadi di browser Anda menggunakan Canvas API. File tidak pernah meninggalkan perangkat."
+    },
+    {
+      "question": "Format apa yang didukung?",
+      "answer": "JPG, PNG, WebP, dan GIF. Output default adalah JPG berkualitas tinggi, optimal untuk Instagram."
+    },
+    {
+      "question": "Bisakah resize untuk Instagram Story?",
+      "answer": "Ya. Ubah lebar ke 1080 dan tinggi ke 1920 px sebelum memproses untuk format Story 9:16."
+    },
+    {
+      "question": "Apakah ada batas ukuran file?",
+      "answer": "Maksimal 10 MB per file. Jika lebih besar, kompres dulu dengan alat kompres gambar kami."
+    }
+  ],
+  "relatedTools": [
+    "compress-under-5mb",
+    "image-dimensions-calculator",
+    "jpg-to-png"
+  ],
+  "keywords": [
+    "resize foto instagram",
+    "ukuran foto instagram 1080",
+    "ubah ukuran gambar instagram"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "compress-under-5mb",
+  "category": "image",
+  "title": "Kompres Gambar di Bawah 5 MB — Gratis Online",
+  "description": "Perkecil ukuran file gambar hingga di bawah 5 MB tanpa kehilangan kualitas signifikan. Proses di browser, tanpa upload.",
+  "headline": "Kirim lamaran atau upload dokumen tanpa khawatir file kebesaran",
+  "subhead": "Gratis, tanpa daftar — kompresi terjadi di perangkat Anda, bukan di server.",
+  "cta": "Kompres sekarang",
+  "mode": "compress",
+  "presets": {
+    "maxSizeMB": 5,
+    "format": "jpeg",
+    "quality": 0.85,
+    "label": "Target maksimal 5 MB"
+  },
+  "intro": [
+    "Banyak formulir online — lamaran kerja, pendaftaran kuliah, portal pemerintah — membatasi ukuran upload di 5 MB. Foto dari kamera HP modern sering kali 8–15 MB, sehingga upload gagal.",
+    "Alat kompres ini mengecilkan file secara otomatis hingga di bawah 5 MB dengan menyesuaikan kualitas JPEG dan resolusi jika perlu. Semua perhitungan dilakukan di browser Anda."
+  ],
+  "tutorial": {
+    "title": "Cara kompres gambar di bawah 5 MB",
+    "steps": [
+      "Unggah foto atau gambar yang ingin diperkecil.",
+      "Target 5 MB sudah diatur otomatis — tidak perlu setting manual.",
+      "Klik \"Kompres sekarang\" dan lihat persentase penghematan.",
+      "Unduh file hasil kompresi jika ukurannya sudah di bawah 5 MB."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Seberapa besar pengurangan ukuran yang bisa dicapai?",
+      "answer": "Tergantung foto asli. Umumnya 50–80% lebih kecil dengan kualitas visual yang masih bagus untuk dokumen dan web."
+    },
+    {
+      "question": "Apakah kualitas foto jadi buruk?",
+      "answer": "Algoritma kami menurunkan kualitas secara bertahap. Sebagian besar foto masih terlihat tajam untuk keperluan upload dokumen."
+    },
+    {
+      "question": "Bisakah target diubah ke 2 MB atau 1 MB?",
+      "answer": "Saat ini target default 5 MB. Untuk kebutuhan lebih kecil, resize dulu ke resolusi lebih rendah lalu kompres."
+    },
+    {
+      "question": "Apakah PNG juga bisa dikompres?",
+      "answer": "Ya, file PNG diterima. Output dikonversi ke JPEG untuk kompresi maksimal kecuali transparansi diperlukan."
+    }
+  ],
+  "relatedTools": [
+    "resize-for-instagram",
+    "jpg-to-png",
+    "image-dimensions-calculator"
+  ],
+  "keywords": [
+    "kompres gambar 5mb",
+    "perkecil ukuran foto",
+    "compress image online"
+  ]
+}
