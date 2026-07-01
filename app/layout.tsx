@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   },
   description,
   metadataBase: new URL(getSiteConfig().url),
+  verification: {
+    other: {
+      "msvalidate.01": "FEFDAD01AC2461AF29952D40ACB7D6AE",
+    },
+  },
 };
 
 export default function RootLayout({
