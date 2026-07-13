@@ -10,7 +10,7 @@ export default function PrivacyPage() {
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 prose prose-neutral dark:prose-invert">
       <h1>Kebijakan Privasi</h1>
       <p className="lead text-muted-foreground">
-        Terakhir diperbarui: Juni 2026
+        Terakhir diperbarui: Juli 2026
       </p>
 
       <h2>Ringkasan</h2>
@@ -38,14 +38,42 @@ export default function PrivacyPage() {
 
       <h2>Cookies</h2>
       <p>
-        Situs ini tidak menggunakan cookies pelacakan. Preferensi tema disimpan
-        melalui localStorage browser.
+        Kami menggunakan localStorage untuk preferensi tema (bukan cookie). Jika
+        iklan pihak ketiga diaktifkan, penyedia iklan (misalnya Adsterra atau
+        Google AdSense) dapat menempatkan cookie untuk menampilkan dan mengukur
+        iklan. Anda dapat mengelola cookie melalui pengaturan browser Anda.
       </p>
 
       <h2>Iklan</h2>
       <p>
-        Ruang iklan (AdSlot) adalah placeholder. Jika iklan pihak ketiga diaktifkan
-        di masa depan, kebijakan ini akan diperbarui sesuai kebijakan penyedia iklan.
+        Situs ini dapat menampilkan iklan dari jaringan pihak ketiga untuk
+        mendukung layanan gratis. Penyedia yang mungkin digunakan:
+      </p>
+      <ul>
+        <li>
+          <strong>Adsterra</strong> —{" "}
+          <a
+            href="https://adsterra.com/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kebijakan privasi Adsterra
+          </a>
+        </li>
+        <li>
+          <strong>Google AdSense</strong> (jika diaktifkan) —{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kebijakan privasi Google
+          </a>
+        </li>
+      </ul>
+      <p>
+        Iklan tidak mengakses file yang Anda proses di alat kami. Data gambar
+        tetap diproses sepenuhnya di browser Anda.
       </p>
 
       <h2>Kontak</h2>
