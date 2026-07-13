@@ -1,10 +1,12 @@
 import { AdSenseUnit } from "@/components/ads/AdSenseUnit";
+import { AdsterraNativeUnit } from "@/components/ads/AdsterraNativeUnit";
 import { AdsterraUnit } from "@/components/ads/AdsterraUnit";
 import {
   getAdsProvider,
   getAdSenseClient,
   getAdSenseSlot,
   getAdsterraKey,
+  getAdsterraNativeConfig,
   hasLiveAdUnit,
   type AdFormat,
 } from "@/lib/ads";
@@ -58,6 +60,20 @@ export function AdSlot({ slot, format = "banner", className }: AdSlotProps) {
   const provider = getAdsProvider();
 
   if (provider === "adsterra") {
+    if (format === "native") {
+      const native = getAdsterraNativeConfig();
+      if (!native) {
+        return <AdPlaceholder slot={slot} format={format} className={className} />;
+      }
+      return (
+        <AdsterraNativeUnit
+          scriptUrl={native.scriptUrl}
+          containerId={native.containerId}
+          className={className}
+        />
+      );
+    }
+
     const adKey = getAdsterraKey(format);
     if (!adKey) {
       return <AdPlaceholder slot={slot} format={format} className={className} />;
