@@ -18,6 +18,7 @@ interface AdSlotProps {
 
 const formatStyles: Record<AdFormat, string> = {
   banner: "min-h-[90px]",
+  native: "min-h-[90px]",
   rectangle: "min-h-[250px]",
   sidebar: "min-h-[600px]",
 };

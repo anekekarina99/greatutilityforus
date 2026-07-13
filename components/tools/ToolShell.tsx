@@ -62,7 +62,7 @@ export function ToolShell({ tool, articles = [] }: ToolShellProps) {
         )}
       </section>
 
-      <AdSlot slot={`tool-mid-${tool.slug}`} format="rectangle" className="mt-8" />
+      <AdSlot slot={`tool-mid-${tool.slug}`} format="native" className="mt-8" />
 
       <section className="mt-12 space-y-4">
         <h2 className="text-xl font-semibold">Tentang alat ini</h2>

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import type { AdFormat } from "@/lib/ads";
-import { getAdDimensions } from "@/lib/ads";
+import { getAdDimensions, getAdsterraInvokeFormat } from "@/lib/ads";
 import { cn } from "@/lib/utils";
 
 interface AdsterraUnitProps {
@@ -14,6 +14,7 @@ interface AdsterraUnitProps {
 export function AdsterraUnit({ adKey, format, className }: AdsterraUnitProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const { width, height } = getAdDimensions(format);
+  const invokeFormat = getAdsterraInvokeFormat(format);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -25,7 +26,7 @@ export function AdsterraUnit({ adKey, format, className }: AdsterraUnitProps) {
     optionsScript.textContent = `
       atOptions = {
         'key' : '${adKey}',
-        'format' : 'iframe',
+        'format' : '${invokeFormat}',
         'height' : ${height},
         'width' : ${width},
         'params' : {}
@@ -42,7 +43,7 @@ export function AdsterraUnit({ adKey, format, className }: AdsterraUnitProps) {
     return () => {
       container.innerHTML = "";
     };
-  }, [adKey, height, width]);
+  }, [adKey, height, invokeFormat, width]);
 
   return (
     <div
